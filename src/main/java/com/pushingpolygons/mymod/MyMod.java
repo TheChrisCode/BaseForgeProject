@@ -52,6 +52,11 @@ public class MyMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.ALEXANDRITE);
+            event.accept(ModItems.DUCKY);
+        }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT)
+        {
+            event.accept(ModItems.DUCKY_SWORD);
         }
     }
 
